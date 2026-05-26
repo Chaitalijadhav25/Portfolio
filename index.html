@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaitali Jadhav | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Chaitali Jadhav</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificate">Certificate</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal" data-delay="0.1">
+          <p class="eyebrow">Portfolio</p>
+          <h1>Hi, I'm <span>Chaitali Jadhav</span></h1>
+          <p>Computer Science student passionate about Full Stack Development and modern web technologies. Currently building projects and improving skills in Java, JavaScript, and problem solving.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-card reveal" data-delay="0.2">
+          <div class="profile-frame">
+            <div class="profile-avatar">
+              <img src="assets/profilepic.jpeg" alt="Chaitali Jadhav" class="profile-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container section-header reveal" data-delay="0.1">
+        <span>About</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="container about-grid reveal" data-delay="0.2">
+        <div class="about-text">
+          <p>Computer Science student passionate about Full Stack Development and software engineering. Interested in building real-world projects, solving LeetCode problems, and learning modern technologies.</p>
+          <p>My work focuses on building responsive, accessible pages that feel polished and professional across every screen size.</p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <h3>Goal</h3>
+            <p>My goal is to become a skilled Full Stack Developer and strengthen my problem-solving and software development skills while preparing for GATE.</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Approach</h3>
+            <p>I believe in learning through practical experience by building projects, participating in internships, and practicing coding consistently.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container section-header reveal" data-delay="0.1">
+        <span>Skills</span>
+        <h2>What I Do</h2>
+      </div>
+      <div class="container skills-grid reveal" data-delay="0.2">
+        <div class="skill-card">
+          <h3>HTML &amp; CSS</h3>
+          <p>Building modern layouts, responsive grids, and polished UI components.</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Interactive behavior, form handling, smooth navigation, and dynamic content.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Responsive Design</h3>
+          <p>Ensuring every page looks great on mobile, tablet, and desktop.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificate" class="section certificate-section">
+      <div class="container section-header reveal" data-delay="0.1">
+        <span>Certificates</span>
+        <h2>My Recent Certifications</h2>
+      </div>
+      <div class="container certificate-grid reveal" data-delay="0.2" id="certificateGrid"></div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="container section-header reveal" data-delay="0.1">
+        <span>Projects</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="container projects-grid reveal" data-delay="0.2">
+        <article class="project-card" id="project1">
+          <h3>Portfolio Landing Page</h3>
+          <p class="project-info">Designed and developed a responsive personal portfolio landing page to showcase my skills, projects, certificates, and contact information with a clean and modern user interface.</p>
+          <p class="project-tech"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+          <div class="project-actions">
+            <a class="btn btn-secondary github-view disabled" href="#" target="_blank" rel="noreferrer" aria-disabled="true">View on GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container section-header reveal" data-delay="0.1">
+        <span>Contact</span>
+        <h2>Let's Work Together</h2>
+      </div>
+      <div class="container contact-grid reveal" data-delay="0.2">
+        <div class="contact-card">
+          <h3>Message Me</h3>
+          <p>Interested in a collaboration or want to learn more? Reach out and let's connect.</p>
+          <p><strong>Email:</strong> chaitalijadhav250107@gmail.com</p>
+          <p><strong>Phone:</strong> +91 92846 55623</p>
+          <div class="social-links">
+            <a href="https://github.com/chaitalijadhav" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/chaitalijadhav" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+        <form class="contact-form" action="#" onsubmit="return false;">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="Your email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Chaitali Jadhav. Crafted with HTML, CSS, and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
